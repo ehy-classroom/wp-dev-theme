@@ -1,6 +1,65 @@
 /*
 Theme Name: My Custom Theme
-Version: 0.1.0
+Version: 0.1.1
 Author: Enno Hyttrek
 */
 
+
+
+/*-------------------
+RESET
+-------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/*-------------------
+LAYOUT
+-------------------*/
+
+h1,h2,h3,h4,h5,h6,p {
+  margin-bottom: 1rem;
+}
+
+
+header {
+    min-height: 21vh;
+}
+
+main {
+    min-height: 55vh;
+}
+
+footer {
+    min-height: 34vh;
+}
+
+
+
+
+
+
+/*-------------------
+COLOR
+-------------------*/
+
+header {
+    background: hsl(199,34%,42%)
+}
+
+main {
+    
+}
+
+footer {
+    background: hsl(199,34%,21%)
+}
+
+header, footer {
+    color: #fff;
+}
