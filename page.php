@@ -29,7 +29,7 @@
 </main>
 
 <p>
-    Dies ist das Template index.php
+    Dies ist das Template page.php
 </p>
 
 <?php get_footer(); ?>

@@ -1,8 +1,9 @@
 <?php get_header(); ?>
 
 <header>
-    <h1><?php bloginfo('name'); ?></h1>
+    <p><?php bloginfo('name'); ?></p>
     <p><?php bloginfo('description'); ?></p>
+    <h1><?php the_title(); ?></h1>
 </header>
 
 <main>
@@ -14,7 +15,7 @@
             the_post();
             ?>
 
-            <h2><?php the_title(); ?></h2>
+
 
             <?php
             the_content();
@@ -29,7 +30,7 @@
 </main>
 
 <p>
-    Dies ist das Template index.php
+    Dies ist das Template single.php
 </p>
 
 <?php get_footer(); ?>
