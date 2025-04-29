@@ -1,6 +1,6 @@
 /*
 Theme Name: My Custom Theme
-Version: 0.1.1
+Version: 0.1.2
 Author: Enno Hyttrek
 */
 
@@ -40,6 +40,17 @@ footer {
 }
 
 
+.container {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1em 20px;
+}
+
+
+
+
+
+
 
 
 
@@ -63,3 +74,32 @@ footer {
 header, footer {
     color: #fff;
 }
+
+
+
+/*-------------------
+RESPONSIVE
+-------------------*/
+
+/* Breakpoint: 580px */
+@media (min-width: 580px) {
+
+}
+
+/* Breakpoint: 900px */
+@media (min-width: 55rem) {
+
+    h2 {
+        column-span: all;
+    }
+
+    .multi-col {
+        column-count: 2;
+    }
+}
+
+/* Breakpoint: 75rem */
+@media (min-width: 1200px) {
+
+}
+
