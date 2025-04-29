@@ -11,3 +11,14 @@
 <body>
     <?php wp_body_open(); ?>
     <p>Die ist der Templateteil header.php</p>
+
+    <nav>
+        <?php
+        // Hauptmenü anzeigen
+        wp_nav_menu([
+            'theme_location' => 'main',
+            'container' => 'ul',
+            'menu_class' => 'main-menu',
+        ]);
+        ?>
+    </nav>
