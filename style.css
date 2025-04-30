@@ -1,6 +1,6 @@
 /*
 Theme Name: My Custom Theme
-Version: 0.1.4
+Version: 0.1.5
 Author: Enno Hyttrek
 */
 
@@ -104,3 +104,16 @@ RESPONSIVE
 
 }
 
+/*-------------------
+DEV
+-------------------*/
+
+.dev-info {
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 0.5em;
+    background-color: hsla(34,97%,55%,0.9);
+    color: #fff;
+}

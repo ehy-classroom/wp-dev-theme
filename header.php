@@ -10,7 +10,6 @@
 
 <body>
     <?php wp_body_open(); ?>
-    <p>Die ist der Templateteil header.php</p>
 
     <nav>
         <?php

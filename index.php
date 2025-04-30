@@ -14,7 +14,7 @@
             the_post();
             ?>
 
-            <h2><?php the_title(); ?></h2>
+            <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
             <?php
             the_content();
@@ -28,7 +28,7 @@
 
 </main>
 
-<p>
+<p class="dev-info">
     Dies ist das Template index.php
 </p>
 

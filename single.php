@@ -29,7 +29,7 @@
 
 </main>
 
-<p>
+<p class="dev-info">
     Dies ist das Template single.php
 </p>
 

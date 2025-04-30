@@ -28,7 +28,7 @@
 
 </main>
 
-<p>
+<p class="dev-info">
     Dies ist das Template page.php
 </p>
 
