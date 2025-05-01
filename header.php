@@ -11,13 +11,13 @@
 <body>
     <?php wp_body_open(); ?>
 
-    <nav>
+    <nav class="main-nav nav-bar">
         <?php
         // Hauptmenü anzeigen
         wp_nav_menu([
             'theme_location' => 'main',
             'container' => 'ul',
-            'menu_class' => 'main-menu',
+            'menu_class' => 'container',
         ]);
         ?>
     </nav>

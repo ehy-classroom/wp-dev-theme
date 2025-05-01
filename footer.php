@@ -1,10 +1,11 @@
 <footer>
+
+<div class="container">
     <p>
         &copy; 2024 - <?php echo date('Y'); ?> Enno Hyttrek
     </p>
 
-
-    <nav>
+    <nav class="footer-nav nav-bar">
         <?php
         // Secondary Menu anzeigen
         wp_nav_menu([
@@ -14,6 +15,10 @@
         ]);
         ?>
     </nav>
+
+</div>
+
+
 
 </footer>
 <?php wp_footer(); ?>

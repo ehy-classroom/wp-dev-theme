@@ -4,8 +4,6 @@ Version: 0.1.5
 Author: Enno Hyttrek
 */
 
-
-
 /*-------------------
 RESET
 -------------------*/
@@ -16,67 +14,87 @@ RESET
   box-sizing: border-box;
 }
 
+nav ul {
+  list-style: none;
+}
 
+nav a {
+  text-decoration: none;
+}
 
 /*-------------------
 LAYOUT
 -------------------*/
 
-h1,h2,h3,h4,h5,h6,p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin-bottom: 1rem;
 }
 
-
 header {
-    min-height: 21vh;
+  min-height: 21vh;
 }
 
 main {
-    min-height: 55vh;
+  min-height: 55vh;
 }
 
 footer {
-    min-height: 34vh;
+  min-height: 34vh;
 }
-
 
 .container {
-    max-width: 75rem;
-    margin: 0 auto;
-    padding: 1em 20px;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 1em 20px;
+}
+
+/*-------------------
+NAVIGATION
+-------------------*/
+
+nav.nav-bar > ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
 }
 
 
 
+/*-------------------
+TYPOGRAPHY
+-------------------*/
 
-
-
-
-
-
+body {
+    font-family: 'Work Sans', sans-serif;
+}
 
 /*-------------------
 COLOR
 -------------------*/
 
 header {
-    background: hsl(199,34%,42%)
+  background: hsl(199, 34%, 42%);
 }
 
 main {
-    
 }
 
 footer {
-    background: hsl(199,34%,21%)
+  background: hsl(199, 34%, 21%);
 }
 
-header a, footer a,
-header, footer {
-    color: #fff;
+header a,
+footer a,
+header,
+footer {
+  color: #fff;
 }
-
-
 
 /*-------------------
 RESPONSIVE
@@ -84,24 +102,21 @@ RESPONSIVE
 
 /* Breakpoint: 580px */
 @media (min-width: 580px) {
-
 }
 
 /* Breakpoint: 900px */
 @media (min-width: 55rem) {
+  h2 {
+    column-span: all;
+  }
 
-    h2 {
-        column-span: all;
-    }
-
-    .multi-col {
-        column-count: 2;
-    }
+  .multi-col {
+    column-count: 2;
+  }
 }
 
 /* Breakpoint: 75rem */
 @media (min-width: 1200px) {
-
 }
 
 /*-------------------
@@ -109,11 +124,12 @@ DEV
 -------------------*/
 
 .dev-info {
-    z-index: 1000;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    padding: 0.5em;
-    background-color: hsla(34,97%,55%,0.9);
-    color: #fff;
+  display: block;
+  z-index: 1000;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 0.5em;
+  background-color: hsla(34, 97%, 55%, 0.9);
+  color: #fff;
 }
