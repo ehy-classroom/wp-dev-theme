@@ -1,6 +1,6 @@
 /*
 Theme Name: My Custom Theme
-Version: 0.1.5
+Version: 0.1.6
 Author: Enno Hyttrek
 */
 
@@ -58,10 +58,15 @@ footer {
 NAVIGATION
 -------------------*/
 
+
 nav.nav-bar > ul {
   display: flex;
   flex-wrap: wrap;
   gap: 1em;
+}
+
+.main-nav {
+  background: green;
 }
 
 
