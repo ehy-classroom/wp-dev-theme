@@ -50,7 +50,7 @@ function theme_dev_classic_setup() {
     ]);
     // Unterstützung für Editor-Styles
     add_theme_support('editor-styles');
-    add_editor_style('css/editor-style.css');
+    add_editor_style('style.css');
     // Unterstützung für responsive Embeds
     add_theme_support('responsive-embeds');
     // Unterstützung für WooCommerce

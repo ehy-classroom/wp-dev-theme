@@ -1,9 +1,7 @@
 <footer>
 
 <div class="container">
-    <p>
-        &copy; 2024 - <?php echo date('Y'); ?> Enno Hyttrek
-    </p>
+
 
     <nav class="footer-nav nav-bar">
         <?php
@@ -16,9 +14,15 @@
         ?>
     </nav>
 
+    <p>
+        &copy; 2024 - <?php echo date('Y'); ?> Enno Hyttrek
+    </p>
+
+    <p>
+        Theme Version: <?php echo wp_get_theme()->get('Version'); ?>
+    </p>
+
 </div>
-
-
 
 </footer>
 <?php wp_footer(); ?>
